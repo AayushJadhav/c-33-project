@@ -45,7 +45,7 @@ function spawnSnow()
 {
   var snow = [];
 
-  for (var i = 0; i < 800; i += 20) {
+  for (var i = 0; i < 800; i += 10) {
     snow.push(new Snow(i, 10));
   }
 
